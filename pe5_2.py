@@ -1,0 +1,5 @@
+naam=(input('wat is uw naam:'))
+leeftijd= eval(input('geef je leeftijd:'))
+paspoort= (input('heeft u een Nederlands paspoort:'))
+if leeftijd >= 18 and paspoort == 'ja': print(naam + ' ' + 'Gefeliciteerd, je mag stemmen!')
+else : print (naam + ' ' + 'helaas mag je niet stemmen')
